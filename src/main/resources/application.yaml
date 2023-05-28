@@ -1,0 +1,19 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rustami.samar@gmail.com
+    password: wcgtldfmerwohtnt
+    test-connection: true
+    properties:
+      mail.smtp.starttls.enable: true
+      mail:
+        smtp:
+          auth: true
+    sender:
+      email: rustami.samar@gmail.com
+      text: no-reply
+    protocol: smtp
+
+mail:
+  send: rustami.samar@gmail.com
